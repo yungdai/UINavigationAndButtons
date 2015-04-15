@@ -1,18 +1,19 @@
 //
-//  ViewController.m
+//  FavouriteViewController.m
 //  UINavigationAndButtons
 //
 //  Created by Yung Dai on 2015-04-15.
 //  Copyright (c) 2015 Yung Dai. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FavouriteViewController.h"
+#import "ProfileViewController.h"
 
-@interface ViewController ()
+@interface FavouriteViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FavouriteViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -23,40 +24,40 @@
     return self;
 }
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImageView *imageView =[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.jpg"]];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.jpg"]];
     
     imageView.contentMode = UIViewContentModeTop;
     imageView.frame = self.view.frame;
+    
     [self.view addSubview:imageView];
     
     UIButton *profileButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    profileButton.frame= CGRectMake(60, 300, 200, 44);
+    profileButton.frame = CGRectMake(60, 300, 200, 44);
     [profileButton setTitle:@"View Profile" forState:UIControlStateNormal];
     [self.view addSubview:profileButton];
-    
     [profileButton addTarget:self action:@selector(showProfile:) forControlEvents:UIControlEventTouchUpInside];
-    
-
-    
 }
 
 - (void)showProfile {
-    NSLog(@"You've clicked the view profile button");
-}
-
-
-- (void)loadView {
-    // creating the view controller ont the fly
-    CGRect viewRect = [[UIScreen mainScreen]bounds];
-    UIView *view = [[UIView alloc]initWithFrame:viewRect];
-    self.view = view;
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

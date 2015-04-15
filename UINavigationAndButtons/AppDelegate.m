@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "FavouriteViewController.h"
+#import "ProfileViewController.h"
+#import "FeedViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +21,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
+    UINavigationController *profileNavController = [[UINavigationController alloc] initWithRootViewController:profileViewController];
+    
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    
+    FavouriteViewController *favoritesViewController = [[FavouriteViewController alloc] init];
+    
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    tabController.viewControllers = @[profileNavController];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

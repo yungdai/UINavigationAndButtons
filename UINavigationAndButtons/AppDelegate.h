@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class ViewController; // Forward Declaration
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+// adding view controller property
+@property (strong, nonatomic) ViewController *viewController;
 
 
 @end

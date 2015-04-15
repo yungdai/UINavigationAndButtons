@@ -14,6 +14,9 @@
 		1A6B96311ADEC0EB006A46CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6B96301ADEC0EB006A46CA /* Images.xcassets */; };
 		1A6B96341ADEC0EB006A46CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6B96321ADEC0EB006A46CA /* LaunchScreen.xib */; };
 		1A6B96401ADEC0EB006A46CA /* UINavigationAndButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B963F1ADEC0EB006A46CA /* UINavigationAndButtonsTests.m */; };
+		1A6B965C1ADED06C006A46CA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B965B1ADED06C006A46CA /* ProfileViewController.m */; };
+		1A6B965F1ADED079006A46CA /* FavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B965E1ADED079006A46CA /* FavouriteViewController.m */; };
+		1A6B96621ADED17F006A46CA /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B96611ADED17F006A46CA /* FeedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +33,22 @@
 		1A6B96201ADEC0EB006A46CA /* UINavigationAndButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationAndButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6B96241ADEC0EB006A46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6B96251ADEC0EB006A46CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A6B96271ADEC0EB006A46CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1A6B96281ADEC0EB006A46CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A6B962A1ADEC0EB006A46CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A6B962B1ADEC0EB006A46CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A6B96271ADEC0EB006A46CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UINavigationAndButtons/AppDelegate.h; sourceTree = "<group>"; };
+		1A6B96281ADEC0EB006A46CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = UINavigationAndButtons/AppDelegate.m; sourceTree = "<group>"; };
+		1A6B962A1ADEC0EB006A46CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = UINavigationAndButtons/ViewController.h; sourceTree = "<group>"; };
+		1A6B962B1ADEC0EB006A46CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = UINavigationAndButtons/ViewController.m; sourceTree = "<group>"; };
 		1A6B962E1ADEC0EB006A46CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A6B96301ADEC0EB006A46CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A6B96331ADEC0EB006A46CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A6B96391ADEC0EB006A46CA /* UINavigationAndButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationAndButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6B963E1ADEC0EB006A46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6B963F1ADEC0EB006A46CA /* UINavigationAndButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationAndButtonsTests.m; sourceTree = "<group>"; };
+		1A6B965A1ADED06C006A46CA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		1A6B965B1ADED06C006A46CA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		1A6B965D1ADED079006A46CA /* FavouriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteViewController.h; sourceTree = "<group>"; };
+		1A6B965E1ADED079006A46CA /* FavouriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteViewController.m; sourceTree = "<group>"; };
+		1A6B96601ADED17F006A46CA /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		1A6B96611ADED17F006A46CA /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 		1A6B96171ADEC0EB006A46CA = {
 			isa = PBXGroup;
 			children = (
+				1A6B96491ADECD04006A46CA /* Models */,
 				1A6B96221ADEC0EB006A46CA /* UINavigationAndButtons */,
 				1A6B963C1ADEC0EB006A46CA /* UINavigationAndButtonsTests */,
 				1A6B96211ADEC0EB006A46CA /* Products */,
@@ -81,10 +91,6 @@
 		1A6B96221ADEC0EB006A46CA /* UINavigationAndButtons */ = {
 			isa = PBXGroup;
 			children = (
-				1A6B96271ADEC0EB006A46CA /* AppDelegate.h */,
-				1A6B96281ADEC0EB006A46CA /* AppDelegate.m */,
-				1A6B962A1ADEC0EB006A46CA /* ViewController.h */,
-				1A6B962B1ADEC0EB006A46CA /* ViewController.m */,
 				1A6B962D1ADEC0EB006A46CA /* Main.storyboard */,
 				1A6B96301ADEC0EB006A46CA /* Images.xcassets */,
 				1A6B96321ADEC0EB006A46CA /* LaunchScreen.xib */,
@@ -117,6 +123,23 @@
 				1A6B963E1ADEC0EB006A46CA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A6B96491ADECD04006A46CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A6B96271ADEC0EB006A46CA /* AppDelegate.h */,
+				1A6B96281ADEC0EB006A46CA /* AppDelegate.m */,
+				1A6B962A1ADEC0EB006A46CA /* ViewController.h */,
+				1A6B962B1ADEC0EB006A46CA /* ViewController.m */,
+				1A6B965A1ADED06C006A46CA /* ProfileViewController.h */,
+				1A6B965B1ADED06C006A46CA /* ProfileViewController.m */,
+				1A6B965D1ADED079006A46CA /* FavouriteViewController.h */,
+				1A6B965E1ADED079006A46CA /* FavouriteViewController.m */,
+				1A6B96601ADED17F006A46CA /* FeedViewController.h */,
+				1A6B96611ADED17F006A46CA /* FeedViewController.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +244,9 @@
 			files = (
 				1A6B962C1ADEC0EB006A46CA /* ViewController.m in Sources */,
 				1A6B96291ADEC0EB006A46CA /* AppDelegate.m in Sources */,
+				1A6B965F1ADED079006A46CA /* FavouriteViewController.m in Sources */,
+				1A6B965C1ADED06C006A46CA /* ProfileViewController.m in Sources */,
+				1A6B96621ADED17F006A46CA /* FeedViewController.m in Sources */,
 				1A6B96261ADEC0EB006A46CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
